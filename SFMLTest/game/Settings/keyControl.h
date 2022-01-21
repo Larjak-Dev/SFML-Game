@@ -8,5 +8,5 @@ public:
 	keyControl(sf::Keyboard::Key key1 = (sf::Keyboard::Key)-2, sf::Keyboard::Key key2 = (sf::Keyboard::Key)-2);
 	sf::Keyboard::Key First;
 	sf::Keyboard::Key Second;
-	bool isPressed();
+	bool isPressed(); 
 };

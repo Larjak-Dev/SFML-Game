@@ -1,15 +1,16 @@
 #pragma once
 #include "keyControl.h"
 
-class Settings {
-public:
-	Settings();
-	keyControl up;
-	keyControl down;
-	keyControl left;
-	keyControl right;
+namespace Settings{
 
-	keyControl zoomIn;
-	keyControl zoomOut;
-};
+	extern keyControl up;
+	extern keyControl down;
+	extern keyControl left;
+	extern keyControl right;
+
+	extern keyControl zoomIn;
+	extern keyControl zoomOut;
+
+	extern bool fullscreen;
+}
 

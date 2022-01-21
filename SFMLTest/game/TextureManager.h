@@ -5,11 +5,15 @@
 #include <list>
 #include <vector>
 
-std::list<TexCordArray> texCordArrays;
+namespace TextureManager {
+
+	extern std::list<TexCordArray> texCordArrays;
+
+	extern
 
 
-void init();
+	void init();
 
-Quad getBlockTextureCords(int id);
-
+	Quad getBlockTextureCords(int id);
+}
 

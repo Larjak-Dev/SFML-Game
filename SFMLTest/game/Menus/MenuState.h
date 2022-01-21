@@ -1,5 +1,6 @@
 #pragma once
 #include "../State.h"
+#include "../TextureManager.h"
 
 class MenuState : public State {
 public:
